@@ -9,23 +9,22 @@
   </head>
   <body>
     <main>
-      <section class="gallery-section">
-        <div class="container">
-          <form class="search-form">
-            <input
-              class="search-input"
-              type="text"
-              id="search-query"
-              name="user_query"
-              placeholder="Search for image..."
-              required
-            />
-            <button class="search-btn" type="submit">Search</button>
-          </form>
-          <div class="loader"></div>
-          <ul class="gallery"></ul>
-        </div>
-      </section>
+      <div class="container">
+        <form class="search-form">
+          <input
+            class="search-input"
+            type="text"
+            id="search-query"
+            name="user_query"
+            placeholder="Search for image..."
+            required
+          />
+          <button class="search-btn" type="submit">Search</button>
+        </form>
+        <div class="loader"></div>
+        <ul class="gallery"></ul>
+        <button class="load-more is-hidden" type="button">Load more</button>
+      </div>
     </main>
 
     <script type="module" src="./main.js"></script>
